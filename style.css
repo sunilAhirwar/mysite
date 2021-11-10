@@ -7,6 +7,10 @@ p, a{
   font-family: 'Roboto', sans-serif;
 }
 
+a{
+  color: #1FA2FF;
+}
+
 header{
   width: 100%;
   height: 70px;
@@ -239,6 +243,12 @@ img{
   margin: 10 auto;
 }
 
+hr{
+  width: 100%;
+  margin: 20px 0;
+  color: 1px solid #rgba(0, 0, 0, 0.5);
+}
+
 #contact{
   background-color: #FBFBFB;
 }
@@ -289,8 +299,25 @@ svg.footer-wave-2 {
 } */
 
 .copyright{
+  color: #808080;
   margin: 20px auto;
 }
+
+.footer-content{
+  margin-bottom: 0;
+}
+
+.social-icon-footer{
+  display: flex;
+  z-index: 10;
+  justify-content: center;
+}
+
+.social-icon-footer a{
+  color: #808080;
+}
+
+
 
 @media (max-width: 1200px) {
   main{
